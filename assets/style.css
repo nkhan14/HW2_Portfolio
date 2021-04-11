@@ -53,7 +53,7 @@ p {
 .compImg {
     height: 1000px;
     width: 100%;
-    background-image: url("/Users/nhk8766/code/HW2_Portfolio/assets/Aesthetic_Macbook.webp");
+    background-image: url("Aesthetic_Macbook.webp");
     background-position: center;
     margin: auto;
 }
