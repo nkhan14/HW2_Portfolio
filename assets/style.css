@@ -53,7 +53,7 @@ p {
 .compImg {
     height: 1000px;
     width: 100%;
-    background-image: url("/Users/nhk8766/code/HW2_Portfolio/Aesthetic_Macbook.webp");
+    background-image: url("/Users/nhk8766/code/HW2_Portfolio/assets/Aesthetic_Macbook.webp");
     background-position: center;
     margin: auto;
 }
@@ -249,5 +249,26 @@ img .float-left {
     color: white;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  body, .codingProjects {
+    flex-direction: column;
+  }
+  
+
+  .topLinks {
+    color: white;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
 }
 
